@@ -153,8 +153,8 @@ def getHeight(self):
                   height = self.SignedIntFromBytes(response[1:3])/1000
                   return height
 ```
-This function gets the heigh from the laser distance sensor.
-Note:If no laser is present, it will still return a value that is meaningless. 
+This function gets the height from the laser distance sensor. This value comes across as an integer that's been multiplied by 1000 for sufficient accuracy, so we divide by 1000 here. 
+Note: If no laser is present, it will still return a value that is meaningless. 
 
 ```python3
 def IntFromBytes(self, _bytes):
@@ -166,3 +166,4 @@ def SignedIntFromBytes(self, _bytes):
         return int.from_bytes(byteArray, "big", signed=True)
 ```
 These utility functions deserialize bytes as either an int of a signed int respectively. 
+
