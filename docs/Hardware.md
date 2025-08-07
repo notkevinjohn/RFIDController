@@ -1,7 +1,18 @@
 # RFID Hardware #
 
 ## Overview ##
+![hardware](https://github.com/notkevinjohn/RFIDController/blob/master/images/Hardware_Inside.jpg)
 
+The RFID Controller includes three major subsystems: RFID, Laser Height Measurement, and Cooling. 
+
+### RFID ###
+This includes the Arduino, which provides central control of all subsystems and communication back to the test computer. This requires a USB 3.0 source with ~1A of current, this will often mean a powered USB hub is required. It also includes the Sparkfun RFID board, which provides read/write communication with the RFID tags. It also includes the antenna selector which lets the communications be routed to as many as 4 different physical antennnas. Lastly, this includes all the SMA adapters to connect these devices. 
+
+### Laser Height Measurement ###
+This subsystem includes the 12V power supply, ADC, and the ciruclar connector to attach to the Panasonic laser height meaurement tool. The ADC connects to the Arduino with an i2C connection, and reads from the laser via a simple analog read pin using 5V logic. The 10-bit ADC on the Arduino was not sufficient to accurately from the device, so a 12-bit ADC was added. 
+
+### Cooling ###
+This system includes the two cooling fans on opposite sides of the enclosure, as well as the USB power adapter that delivers the 5V source. This system has dedicated USB connection (separate from the one used on the RFID system) that can be connected to any USB source provding ~250mA or better. 
 
 ## Wiring ##
 ![wiring guide](https://github.com/notkevinjohn/RFIDController/blob/master/images/wiringDiagram.png)
@@ -49,6 +60,7 @@ https://www.amazon.com/dp/B07V54YQ3R?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 **Terminal Block**
 https://www.amazon.com/dp/B09891K2P8?ref=ppx_yo2ov_dt_b_fed_asin_title
+
 
 
 
