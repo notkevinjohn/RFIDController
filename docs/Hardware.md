@@ -1,8 +1,7 @@
 # RFID Hardware #
 
 ## Parts List ##
-**Arduino Uno**  
-https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_1_pp?crid=22H06PQWC2CB&dib=eyJ2IjoiMSJ9.mMwW9AQ5cM5IcBhuz3WQYZgPI-1AHcBuuYjUkQvEAu3IZH7nceRn5T7-Q3m94430lRqjN5uFEn6j7cPxZ2bcCSxiX24Jis13Noc0UOXHarxPQloCBmZWTbqAlih4s4L3n6mxX25AmDiz-nSoJrM_LylMPEuR5QHl1lmmaiLVxHC3qmSDGv023gOVYyJ6AxGBgJ5hpJBhCTxcSpb7zHKb85d9-WuM7z-u9E8YZDA3psg.-tKRRuxua4SQo6SyaT1le2GeCLL8hW7NOrp0V6_rrys&dib_tag=se&keywords=arduino+uno&qid=1754589263&sprefix=arduno+uno%2Caps%2C167&sr=8-1 \
+**Arduino Uno**  https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_1_pp?crid=22H06PQWC2CB&dib=eyJ2IjoiMSJ9.mMwW9AQ5cM5IcBhuz3WQYZgPI-1AHcBuuYjUkQvEAu3IZH7nceRn5T7-Q3m94430lRqjN5uFEn6j7cPxZ2bcCSxiX24Jis13Noc0UOXHarxPQloCBmZWTbqAlih4s4L3n6mxX25AmDiz-nSoJrM_LylMPEuR5QHl1lmmaiLVxHC3qmSDGv023gOVYyJ6AxGBgJ5hpJBhCTxcSpb7zHKb85d9-WuM7z-u9E8YZDA3psg.-tKRRuxua4SQo6SyaT1le2GeCLL8hW7NOrp0V6_rrys&dib_tag=se&keywords=arduino+uno&qid=1754589263&sprefix=arduno+uno%2Caps%2C167&sr=8-1 \
  
 **RFID Reader**
 https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-14066/6691388
@@ -42,5 +41,6 @@ https://www.amazon.com/dp/B07V54YQ3R?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 **Terminal Block**
 https://www.amazon.com/dp/B09891K2P8?ref=ppx_yo2ov_dt_b_fed_asin_title
+
 
 
