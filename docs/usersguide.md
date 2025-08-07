@@ -4,13 +4,13 @@
 This device includes the hardware for reading and writing to RFID tags. It includes an antenna switcher that allows it to select between up to 4 different atennas for reading from multiple locations. It also includes the hardware to connect an optional laser height measurement tool. 
 
 ### Bottom Ports ###
-![bottom ports](https://github.com/notkevinjohn/RFIDController/blob/master/images/Hardware_Bottom.jpg)
+![bottom ports](https://raw.githubusercontent.com/notkevinjohn/RFIDController/refs/heads/master/images/Hardware_Bottom.jpg)
 1. Top USB Port is for RFID Power and Data. It should be connected to a USB 3.0 source that can provide 3A of power, which will usually mean a powered USB 3.0 hub.
 2. Bottom USB Port is for fan power. It should be connected to a USB source that can provide ~0.5A, and needs not have a data connection.
 3. Bottom barrell jack adapter is used to power the laser if one is connected. It should provide a 12V 2A power source. 
 
 ### Top Ports ###
-![top ports](https://github.com/notkevinjohn/RFIDController/blob/master/images/Hardware_Top.jpg)
+![top ports](https://raw.githubusercontent.com/notkevinjohn/RFIDController/refs/heads/master/images/Hardware_Top.jpg)
 1. SMA connected for antennas should be populated as needed from lowest to highest number, starting with the port that is furtherst from the 6 pin circular connector. At least one is required for RFID communications.
 2. The 6pin circular connector goes out to the laser height meaurement tool, if it is included. 
 
@@ -108,4 +108,5 @@ This will return a list of valued pairs, the first item is the RSSI and the seco
 -0.5
 ```
 This will return a single value representing the variance from the target height, expressed in millimeters. 
+
 
