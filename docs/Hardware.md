@@ -1,7 +1,7 @@
 # RFID Hardware #
 
 ## Overview ##
-![hardware](https://github.com/notkevinjohn/RFIDController/blob/master/images/Hardware_Inside.jpg)
+![hardware](https://raw.githubusercontent.com/notkevinjohn/RFIDController/refs/heads/master/images/Hardware_Inside.jpg)
 
 The RFID Controller includes three major subsystems: RFID, Laser Height Measurement, and Cooling. 
 
@@ -15,7 +15,7 @@ This subsystem includes the 12V power supply, ADC, and the ciruclar connector to
 This system includes the two cooling fans on opposite sides of the enclosure, as well as the USB power adapter that delivers the 5V source. This system has dedicated USB connection (separate from the one used on the RFID system) that can be connected to any USB source provding ~250mA or better. 
 
 ## Wiring ##
-![wiring guide](https://github.com/notkevinjohn/RFIDController/blob/master/images/wiringDiagram.png)
+![wiring guide](https://raw.githubusercontent.com/notkevinjohn/RFIDController/refs/heads/master/images/wiringDiagram.png)
 
 
 
@@ -60,6 +60,7 @@ https://www.amazon.com/dp/B07V54YQ3R?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 **Terminal Block**
 https://www.amazon.com/dp/B09891K2P8?ref=ppx_yo2ov_dt_b_fed_asin_title
+
 
 
 
